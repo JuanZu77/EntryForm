@@ -1,0 +1,119 @@
+
+*{ box-sizing: border-box;}
+
+html, body { height: 100%;}
+
+body{
+    background-color: #151e33;
+    color: white;
+    font-family: "calibri";
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/*CREATE*/
+.create{
+    width: 100%; 
+    max-width: 785px;
+    min-width: 320px;
+
+    background-color: #1b263e;
+    padding: 3rem; 
+}
+
+/*LOGIN*/
+a{
+   color: #e3627f; 
+   text-decoration: none;
+
+}
+
+.login{
+    text-align: right;
+    font-size: 16px;
+}
+
+/*CONTENT*/
+.content{
+     width: 65%; 
+     margin: 3rem auto  auto;
+}
+
+.content h1{
+     font-size: 26px;
+     line-height: 26px;
+     text-align: center;
+}
+.content p{
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.form{
+    margin-top: 2rem;
+}
+
+.form label{
+  font-size: 14px;
+  font-weight: bold;
+  display: block; 
+  margin-bottom: .3rem;      
+}
+
+.form input{
+    display: block;
+    border: none;
+    width: 100%; 
+}
+  
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"]{
+    background-color: #1b263e;
+    border: 1px solid #324161;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 16px;
+
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.form input[type="submit"]{
+    background-color: #e3627f;
+    border: 1px solid #324161;
+    border-radius: 5px;
+
+    color: white;
+    font-weight: bold;
+
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+
+    cursor: pointer;
+}
+
+
+.legal{
+    background-color: #28395c;
+    border: 1px solid #324161;
+    border-radius: 10px;
+    color: #8f9ab2;
+
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    width: 85%;
+    margin: 0 auto;
+
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+}
+
+
